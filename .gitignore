@@ -1,0 +1,26 @@
+# Environment Variables & Secrets (CRITICAL: Do not upload API keys)
+.env
+.env.*
+
+# Python Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database & Local Storage
+neuropilot.db
+vector_db/
+uploads/
+*.log
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
